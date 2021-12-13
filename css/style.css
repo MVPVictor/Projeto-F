@@ -1,0 +1,33 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+
+background: red;
+
+}
+.logo{
+
+    margin: 5px;
+    width: 180px;
+
+}
+
+.menu-list{
+
+    display: flex;
+    background: #002069;
+    width: 100%;
+    padding: 10px;
+    
+}
+a{
+
+color: white;
+
+
+}
