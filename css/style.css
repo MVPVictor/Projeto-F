@@ -16,18 +16,35 @@ background: red;
     width: 180px;
 
 }
+a{
 
-.menu-list{
+color: white;
+
+}
+.menu-nav{
 
     display: flex;
     background: #002069;
     width: 100%;
     padding: 10px;
-    
+
 }
-a{
 
-color: white;
+.menu-list{
 
+    display: flex;
 
+}
+
+.alinhar{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav div select{
+    height: 30px;
 }
