@@ -7,7 +7,7 @@
 }
 body{
 
-background: red;
+background: #292929;
 
 }
 .logo{
@@ -29,13 +29,19 @@ color: white;
     padding: 10px;
 
 }
+.sub-nav{
 
+    display: flex;
+    background: #090909;
+    width: 100%;
+    padding: 20px;
+
+}
 .menu-list{
 
     display: flex;
 
 }
-
 .alinhar{
     width: 70%;
     margin: auto;
@@ -44,7 +50,6 @@ color: white;
     align-items: center;
 
 }
-
 nav div select{
     height: 30px;
 }
