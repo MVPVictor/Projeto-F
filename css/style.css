@@ -8,25 +8,36 @@
 body{
 
 background: #292929;
+z-index: 0;
 
 }
-.logo{
+.logo1{
 
-    margin: 5px;
+    margin-top: 10px;
     width: 180px;
+
+}
+.logo2{
+
+    margin-top: 1px;
+    width: 100px;
 
 }
 a{
 
 color: white;
+text-decoration:none ;
 
 }
 .menu-nav{
 
     display: flex;
-    background: #002069;
+    background: #0020699e;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
+    z-index: 1;
+    position: fixed;
+    top: 0;
 
 }
 .sub-nav{
@@ -35,7 +46,10 @@ color: white;
     background: #090909;
     width: 100%;
     padding: 20px;
-
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 82px;
 }
 .menu-list{
 
@@ -51,5 +65,54 @@ color: white;
 
 }
 nav div select{
+
     height: 30px;
+
+}
+select{
+
+    margin: 5px;
+
+}
+
+.fidelidade{
+
+    display: table;
+
+}
+@media (max-width: 600px) {
+
+.menu-nav{
+
+    display: flex;
+    background: #0020699e;
+    width: 100%;
+    padding: 5px;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    
+
+}
+.menu-list{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo1{
+
+    margin-right: 30px;
+    
+}
+
+.brusqueta, .logo2, .carousel, .sub-nav, .cidade, .cinema, .btn{
+
+    display: none;
+
+}
+
+
 }
