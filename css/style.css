@@ -11,6 +11,7 @@ background: #292929;
 z-index: 0;
 
 }
+
 .logo1{
 
     margin-top: 10px;
@@ -32,31 +33,29 @@ text-decoration:none ;
 .menu-nav{
 
     display: flex;
-    background: #0020699e;
+    background: rgba(66, 120, 247, 0.62);
     width: 100%;
     padding: 5px;
     z-index: 1;
     position: fixed;
     top: 0;
+    height: 4.4rem;
 
 }
 .sub-nav{
 
     display: flex;
-    background: #090909;
+    background: #070606;
     width: 100%;
     padding: 20px;
     align-items: center;
     justify-content: center;
     margin: auto;
-    margin-top: 82px;
+    margin-top: 4.4rem;
+    
 }
 .menu-list{
 
-    display: flex;
-
-}
-.alinhar{
     width: 70%;
     margin: auto;
     display: flex;
@@ -74,13 +73,21 @@ select{
     margin: 5px;
 
 }
-
 .fidelidade{
 
     display: table;
 
 }
-@media (max-width: 600px) {
+.espacamento{
+
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+@media (max-width: 700px) {
 
 .menu-nav{
 
@@ -91,21 +98,38 @@ select{
     z-index: 1;
     position: fixed;
     top: 0;
-    
+    right: 0;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: top ease 1s;
+    height: 80vh;
 
 }
-.menu-list{
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+nav .openmenu{
+
+    display: block;
+
+}
+
+nav .menu-list .closemenu{
+
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 
 }
 
 .logo1{
 
     margin-right: 30px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .brusqueta, .logo2, .carousel, .sub-nav, .cidade, .cinema, .btn{
@@ -113,6 +137,5 @@ select{
     display: none;
 
 }
-
 
 }
