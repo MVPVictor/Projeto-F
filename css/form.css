@@ -15,7 +15,7 @@ body{
 
 }
 
-form{
+.formulario{
 
     height: auto;
     width: 500px;
@@ -33,13 +33,13 @@ form{
 
 }
 
-form label{
+.formulario label{
 
     font-size: 25px;
 
 }
 
-form input{
+.formulario input{
 
     width: 80%;
     height: 40px;
@@ -54,13 +54,13 @@ form input{
 
 }
 
-form input:hover{
+.formulario input:hover{
 
     border-color: #3490AC;
 
 }
 
-form textarea{
+.formulario textarea{
 
     border: 1px;
     border-style: solid;
@@ -72,13 +72,13 @@ form textarea{
 
 }
 
-form textarea:hover{
+.formulario textarea:hover{
 
     border-color: #3490AC;
 
 }
 
-form button{
+.formulario button{
 
     height: 40px;
     width: 30%;
@@ -92,7 +92,7 @@ form button{
 
 }
 
-form button:hover{
+.formulario button:hover{
 
     background: #2e6386;
 
