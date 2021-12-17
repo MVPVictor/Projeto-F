@@ -158,12 +158,16 @@ a{
     right: 100px;
 
 }
+.modal{
+    position: absolute;
+    right: 100px;
+}
 @media (max-width: 700px) {
 
 .menu-nav{
 
     display: flex;
-    background: rgb(208, 17, 17);
+    background: #66D0CB;
     width: 100%;
     padding: 5px;
     z-index: 1;
@@ -178,7 +182,7 @@ a{
     top: 0;
     right: 0;
     left: 0;
-    background-color: rgb(197, 41, 41);
+    background-color: #66D0CB;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -208,13 +212,15 @@ a{
     margin: auto;
 
 }
-.brusqueta, .logo2, .sub-nav, .cidade, .cinema, .btn{
+.brusqueta, .logo2, .sub-nav, .btn{
 
     display: none;
 
 }
 .fa-facebook, .fa-instagram, .fa-twitter, .fa-github{
 
+    align-items: center;
+    justify-content: center;
     display:block
 
 }
